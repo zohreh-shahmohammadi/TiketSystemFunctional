@@ -12,8 +12,6 @@ $rows = users_check();
     <?php
     if ($rows['role'] == 'support') {
         echo '<a href="showTiket.php">ShowTiket</a>';
-    } else {
-        header('location:dashboard.php');
     }
     ?>
 

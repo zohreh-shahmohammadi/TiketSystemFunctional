@@ -15,8 +15,6 @@ $rows = users_check();
         echo '<br>';
         echo '<a href="ShowTiketUser.php">Show Tiket User</a>';
         echo '   <h2 style="color:green">You are User </h2>';
-    } else {
-        header('Location: support.php');
     }
     ?>
 </div>
